@@ -1,4 +1,4 @@
-import { isOddOrEven } from "../evenOrOdd/evenOrOdd.js";
+import { isOddOrEven } from "../02.evenOrOdd/evenOrOdd.js";
 import { expect } from 'chai';
 
 describe(`Unit Test for isOddOrEven()`, () => {
