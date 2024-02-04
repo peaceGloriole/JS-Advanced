@@ -1,0 +1,15 @@
+[
+    {
+        "img":"https://www.kamko.bg/wp-content/uploads/2020/05/k313-krem.jpg",
+        "name": "Sofa",
+        "price": "259",
+        "decFactor":"0.4"
+
+    },
+    {
+        "img":"https://www.kamko.bg/wp-content/uploads/2020/05/k313-krem.jpg",
+        "name": "Wardrobe",
+        "price": "120",
+        "decFactor":"1.2"
+    }
+]
