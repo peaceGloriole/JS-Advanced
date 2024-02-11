@@ -1,4 +1,4 @@
-import { motorcycleRider } from '../JS-Advanced/03.Motorcycle Rider -Resources/motorcycleRider.js';
+import { motorcycleRider } from '../JS-Advanced/03.Motorcycle Rider Unit Test/motorcycleRider.js';
 import { expect } from 'chai';
 
 describe(`Motor Cycle JS`, function () {

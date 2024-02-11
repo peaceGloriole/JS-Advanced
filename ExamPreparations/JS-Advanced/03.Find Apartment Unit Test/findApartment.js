@@ -1,4 +1,4 @@
-const findNewApartment = {
+export const findNewApartment = {
   isGoodLocation(city, nearPublicTransportation) {
     if (typeof city !== "string" || typeof nearPublicTransportation !== "boolean"){
         throw new Error("Invalid input!");
@@ -41,5 +41,4 @@ const findNewApartment = {
 };
 
 
-module.exports = findNewApartment;
 
