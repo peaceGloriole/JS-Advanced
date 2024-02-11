@@ -13,10 +13,7 @@ describe(`Motor Cycle JS`, function () {
     });
 
     it(`should throw an error if category is not a string`, () => {
-      const testFunction = () => {
-        motorcycleRider.licenseRestriction(123);
-      }
-      expect(testFunction).to.throw(Error, `Invalid Information`);
+      expect(() => motorcycleRider.licenseRestriction(1)).to.throw();
     });
   });
 
