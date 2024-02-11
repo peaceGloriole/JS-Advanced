@@ -86,18 +86,6 @@ class JobOffers {
   }
 }
 
-// You successfully added candidates: John Doe, Peter Parker, Jordan Cole, Daniel Jones.
-// Welcome aboard, our newest employee is John Doe.
-// Welcome aboard, our newest employee is Peter Parker.
-// Welcome aboard, our newest employee is Jordan Cole.
-// Jordan Cole will sign a contract for Google, as Strategy Analyst with a salary of $40,000 per year!
-// John Doe will sign a contract for Google, as Strategy Analyst with a salary of $50,000 per year!
-// Candidates list:
-// Daniel Jones-18
-// John Doe-hired
-// Jordan Cole-hired
-// Peter Parker-hired
-
 let Jobs = new JobOffers("Google", "Strategy Analyst");
 console.log(Jobs.jobApplication(["John Doe-Bachelor-10", "Peter Parker-Master-5", "Jordan Cole-High School-5", "Daniel Jones- Bachelor-18"]));
 console.log(Jobs.jobOffer("John Doe-8"));
