@@ -155,9 +155,7 @@ function solution() {
         let resolveDesc = document.createElement(`p`);
         resolveDesc.textContent = `Description: ${pendingDesc.textContent}`;
 
-        let clearBtn = document.createElement(`button`);
-        clearBtn.textContent = `Clear`;
-        clearBtn.classList.add(`clear-btn`);
+        let clearBtn = createButton(`Clear`, `clear-btn`, onClear);
 
         resolveArticle.appendChild(resolveEmployee);
         resolveArticle.appendChild(resolveCategory);
@@ -180,5 +178,13 @@ function solution() {
         }
       }
     }
+  }
+
+  function createButton(text, className, clickHandler) {
+    const button = document.createElement('button');
+    button.textContent = text;
+    button.classList.add(className);
+    button.addEventListener('click', clickHandler);
+    return button;
   }
 }
